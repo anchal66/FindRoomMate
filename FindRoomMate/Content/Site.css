@@ -1,24 +1,57 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background: black;
+    color: #fff;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.navbar {
+    opacity: 0.8;
+    border-bottom: #008ed6 5px solid;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+#home {
+    background-image: url("../Content/images/home-section.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.home-inner {
+        padding-top: 150px;
+    }
+
+    #home .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 600px;
+    }
+
+    #home .card-form {
+        opacity: 0.8;
+    }
+
+    #home .fa {
+        color: #008ed6;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+.bg-orange {
+    background: rgba(243, 156, 18, 0.9);
+}
+
+.bg-green {
+    background: rgba(34, 153, 84, 0.9);
+}
+
+.bg-blue {
+    background: rgba(46, 134, 193, 0.9);
+}
+
+.footer {
+    background: #283747;
 }
