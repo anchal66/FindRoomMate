@@ -8,9 +8,6 @@ namespace FindRoomMate.Models
 {
     public class Broker
     {
-        [Display(Name ="Enter username")]
-        [Required (ErrorMessage ="Enter UserName")]
-        [StringLength(15, ErrorMessage ="Max 15 characters")]
         public int BrokerId { get; set; }
 
         [Display(Name = "Enter your Email Id")]
@@ -58,7 +55,6 @@ namespace FindRoomMate.Models
 
         [Display(Name = "Enter Conatact No.")]
         [Required(ErrorMessage = "Enter Mobile No.")]
-        [StringLength(11, ErrorMessage = "Max 10 characters")]
         public long BrokerNumber1{ get; set; }
 
         [Display(Name = "Enter Alternative Contact No.")]

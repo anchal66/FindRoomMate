@@ -15,7 +15,7 @@
     min-height: 600px;
 }
 
-.home-inner {
+    #home.home-inner {
         padding-top: 150px;
     }
 
@@ -54,4 +54,25 @@
 
 .footer {
     background: #283747;
+}
+.home-inner2 {
+    padding-top: 150px;
+}
+#home2 {
+    background-image: url("../Content/images/brokers-section.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+    #home2.home-inner {
+        padding-top: 150px;
+    }
+#home .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
 }

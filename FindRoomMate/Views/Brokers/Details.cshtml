@@ -1,0 +1,145 @@
+﻿@model FindRoomMate.Models.Broker
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div id="home2">
+    <div class="home-inner2">
+        <div class="dark-overlay">
+            <h2>Details</h2>
+
+            <div>
+                <h4>Broker</h4>
+                <hr />
+                <dl class="dl-horizontal">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerEmail)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerEmail)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerPass)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerPass)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerRePass)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerRePass)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerName)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerName)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerPlace)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerPlace)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerArea)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerArea)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerCity)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerCity)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerState)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerState)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerCountry)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerCountry)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerNumber1)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerNumber1)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerNumber2)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerNumber2)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerPoints)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerPoints)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerRating)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerRating)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerVeiws)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerVeiws)
+                    </dd>
+
+                    <dt>
+                        @Html.DisplayNameFor(model => model.BrokerdateTime)
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.BrokerdateTime)
+                    </dd>
+
+                </dl>
+            </div>
+            <p>
+                @Html.ActionLink("Edit", "Edit", new { id = Model.BrokerId }) |
+                @Html.ActionLink("Back to List", "Index")
+            </p>
+
+        </div>
+    </div>
+</div>
